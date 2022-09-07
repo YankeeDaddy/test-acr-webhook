@@ -1,2 +1,2 @@
 FROM nginx:1.8
-RUN mkdir /test
+RUN echo 'go go fighting' > /usr/share/nginx/html/index.html
